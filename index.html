@@ -1,0 +1,14 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ site.title }}</title>
+    <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | relative_url }}">
+</head>
+<body>
+    <h1>欢迎来到我的播客</h1>
+    <p>{{ site.description }}</p>
+    <p>你的播客 RSS Feed 地址是: <a href="{{ "/feed.xml" | relative_url }}">{{ "/feed.xml" | relative_url }}</a></p>
+</body>
+</html>
+

@@ -1,0 +1,9 @@
+# _config.yml
+title: 我的播客
+description: 这是一个使用 Jekyll 和 GitHub Pages 托管的播客。
+baseurl: "/podcast" # 对应你的 GitHub Pages 路径
+url: "https://happytonakai.github.io" # 你的 GitHub Pages 域名
+
+# 启用 RSS 插件 (如果需要)
+plugins:
+  - jekyll-feed
